@@ -13,5 +13,5 @@ app.use(Antd).use(store).use(router).mount("#app");
 
 const icons = Icons;
 for(const i in icons){
-    app.component(i,icons[i]);
+    app.component(i,icons[i]);//注册全局组件
 }
